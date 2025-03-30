@@ -53,6 +53,9 @@
 
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import HeroSection from "../components/HeroSection";
+import Categories from "../components/Categories";
+import SubscriptionSection from "../components/SubscriptionSection";
 
 function Home() {
   // Sample product data
@@ -80,50 +83,32 @@ function Home() {
   return (
     <main className="text-center">
       {/* Banner Section */}
-      <section className="relative w-full h-[400px]">
-        <img
-          src="/banner.png"
-          alt="Nail Design Banner"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white animate-fadeIn">
-          <h2 className="text-5xl font-bold">Perfect Nails for Every Occasion</h2>
-          <p className="mt-2 text-lg">We bring perfection to your nails</p>
-          <Link to="/store" className="mt-4 bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600 transition">
-            Explore Shop →
-          </Link>
-        </div>
-      </section>
+      <HeroSection/>
 
       {/* Category Section */}
-      <section className="p-10">
-        <h2 className="text-3xl font-bold mb-6">Browse by Category</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
-          {categories.map((category) => (
-            <div key={category.id} className="p-4 border rounded-lg shadow hover:shadow-lg transition">
-              <img src={category.image} alt={category.name} className="w-full h-50 object-cover rounded" />
-              <h3 className="text-xl font-bold mt-3">{category.name}</h3>
-              <Link to={`/category/${category.id}`} className="mt-2 text-pink-500 font-semibold hover:underline">
-                View More →
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
+      <Categories categories={categories}/>
 
       {/* Product Section */}
       <section className="p-10">
         <h2 className="text-3xl font-bold mb-6">Shop Our Best Nail Designs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product) => (
-            <div key={product.id} className="p-4 border rounded-lg shadow hover:shadow-lg transition">
-              <img src={product.image} alt={product.name} className="w-full h-60 object-cover rounded" />
-              <h3 className="text-xl font-bold mt-3">{product.name}</h3>
-              <p className="text-pink-600 font-semibold">{product.price}</p>
-              <button className="mt-2 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">
-                Buy Now
-              </button>
-            </div>
+            <a
+              key={product.id}
+              href={`${product.link}`} // Change to actual product page link
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <div className="p-4 border rounded-lg shadow hover:shadow-lg transition">
+                <img src={product.image} alt={product.name} className="w-full h-70 object-cover rounded" />
+                <h3 className="text-xl font-bold mt-3">{product.name}</h3>
+                <p className="text-pink-600 font-semibold">{product.price}</p>
+                <button className="mt-2 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">
+                  Buy Now
+                </button>
+              </div>
+            </a>
           ))}
         </div>
       </section>
@@ -165,20 +150,7 @@ function Home() {
       </section>
 
       {/* Newsletter Subscription */}
-      <section className="p-10 bg-pink-100 text-center">
-        <h2 className="text-3xl font-bold mb-4">Subscribe for Exclusive Offers</h2>
-        <p className="text-gray-700">Be the first to know about new arrivals and special discounts.</p>
-        <div className="mt-4">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-4 py-2 border rounded-lg focus:outline-none w-64"
-          />
-          <button className="ml-2 bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">
-            Subscribe
-          </button>
-        </div>
-      </section>
+      <SubscriptionSection/>
     </main>
   );
 }
