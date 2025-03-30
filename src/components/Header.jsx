@@ -26,7 +26,7 @@ function Header() {
 
   return (
     <header className="flex justify-between items-center p-4 md:p-6 bg-white shadow-md relative">
-      <h1 className="text-2xl font-bold">NailDesign</h1>
+      <h1 className="text-2xl font-bold">Tip Top Nails</h1>
 
       {/* Mobile Menu Button */}
       <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
