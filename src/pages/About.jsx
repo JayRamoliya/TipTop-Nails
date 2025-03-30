@@ -6,7 +6,7 @@ function About() {
   
         {/* Introduction */}
         <p className="text-lg text-gray-700 leading-relaxed">
-          Welcome to <span className="font-semibold">Nail Design Studio</span>, your ultimate destination for 
+          Welcome to <span className="font-semibold">Tip Top Nails</span>, your ultimate destination for 
           elegance and beauty. We specialize in premium nail care, professional 
           beauty treatments, and expert education for aspiring nail artists.
         </p>
@@ -14,7 +14,7 @@ function About() {
         {/* Image */}
         <div className="mt-6">
           <img 
-            src="/images/salon.jpg" 
+            src="/banner.png" 
             alt="Nail Design Studio"
             className="w-full h-64 object-cover rounded-lg shadow-md"
           />

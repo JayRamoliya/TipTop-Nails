@@ -11,11 +11,11 @@ function HeroSection() {
       />
       
       {/* Overlay Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center px-4">
-        <h2 className="text-3xl md:text-5xl font-bold">
+      <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-50 text-white text-center px-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-black">
           Perfect Nails for Every Occasion
         </h2>
-        <p className="mt-2 text-base md:text-lg">
+        <p className="mt-2 text-base text-black md:text-lg">
           We bring perfection to your nails
         </p>
         <Link
