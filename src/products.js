@@ -1,0 +1,9 @@
+const products = [
+    { id: 1, name: "Elegant Red Nails", category: "1", price: "$3.5", image: "/nails/Elegant Red Nails.jpg", link: "https://amzn.to/3DYkoi5" },
+    { id: 2, name: "Luxury Gold Nails", category: "2", price: "$3.1", image: "/nails/Luxury Gold Nails.jpg", link: "https://amzn.to/4iNEKdd" },
+    { id: 3, name: "Classic French Nails", category: "3", price: "$4", image: "/nails/Classic French Nails.jpg", link: "https://amzn.to/4hMuvnT" },
+    { id: 4, name: "Glitter Glam Nails", category: "3", price: "$2.9", image: "/nails/Glitter Glam Nails.jpg", link: "https://amzn.to/3QVXXgn" },
+    { id: 5, name: "Ombre Pink Nails", category: "4", price: "$2.5", image: "/nails/Ombre Pink Nails.jpg", link: "https://amzn.to/3Rtscve" },
+];
+
+export default products;
