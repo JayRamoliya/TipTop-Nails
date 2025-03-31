@@ -60,6 +60,15 @@ function Header() {
           </li>
           <li>
             <Link
+              to="/blog"
+              className="block py-2 px-4 text-center hover:text-pink-500"
+              onClick={() => setIsOpen(false)}
+            >
+              Blog
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/about"
               className="block py-2 px-4 text-center hover:text-pink-500"
               onClick={() => setIsOpen(false)}

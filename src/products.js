@@ -11,6 +11,11 @@ const products = [
     { id: 10, name: "Ombre Nails", category: "4", price: "$2.5", image: "/nails/Ombre Nails.jpg", link: "https://amzn.to/4hV9dEG" },
     { id: 11, name: "Dark Emerald Green Nail Designs", category: "1", price: "$3.5", image: "/nails/Dark Emerald Green Nail Designs.jpg", link: "https://amzn.to/3DYkoi5" },
     { id: 12, name: "Gorgeous Green and Gold Nails", category: "2", price: "$3.1", image: "/nails/Gorgeous Green and Gold Nails.jpg", link: "https://amzn.to/4iNEKdd" },
+    { id: 13, name: "25 Adorable Easter Nail Designs for Spring 2025", category: "3", price: "$4", image: "/nails/25 Adorable Easter Nail Designs for Spring 2025.jpg", link: "https://amzn.to/4hMuvnT" },
+    { id: 14, name: "Spring nails", category: "3", price: "$2.9", image: "/nails/Spring nails.jpg", link: "https://amzn.to/41V14LX" },
+    { id: 15, name: "Chocolate Brown Nails", category: "4", price: "$2.5", image: "/nails/Chocolate Brown Nails.jpg", link: "https://amzn.to/42pIHyL" },
+    { id: 16, name: "Red Nail Design", category: "4", price: "$2.5", image: "/nails/Red Nail Design.jpg", link: "https://amzn.to/3Rs0PSh" },
+    { id: 17, name: "winter nail design", category: "4", price: "$2.5", image: "/nails/winter nail design.jpg", link: "https://amzn.to/3XDWMG7" },
 ];
 
 export default products;
