@@ -16,6 +16,10 @@ const products = [
     { id: 15, name: "Chocolate Brown Nails", category: "4", price: "$2.5", image: "/nails/Chocolate Brown Nails.jpg", link: "https://amzn.to/42pIHyL" },
     { id: 16, name: "Red Nail Design", category: "4", price: "$2.5", image: "/nails/Red Nail Design.jpg", link: "https://amzn.to/3Rs0PSh" },
     { id: 17, name: "winter nail design", category: "4", price: "$2.5", image: "/nails/winter nail design.jpg", link: "https://amzn.to/3XDWMG7" },
+    { id: 18, name: "Chic and Elegant Nail Art", category: "4", price: "$5", image: "/nails/Chic and Elegant Nail Art.jpg", link: "https://amzn.to/3Rs0PSh" },
+    { id: 19, name: "Navy Blue Fall Nail", category: "4", price: "$3.5", image: "/nails/Navy Blue Fall Nail.jpg", link: "https://amzn.to/4hYqFIC" },
+    { id: 20, name: "Tiny Little Artworks", category: "2", price: "$3.1", image: "/nails/Tiny Little Artworks.jpg", link: "https://amzn.to/4iNEKdd" },
+    { id: 21, name: "Pink Nails", category: "3", price: "$3.9", image: "/nails/Pink Nails.jpg", link: "https://amzn.to/3QVXXgn" },
 ];
 
 export default products;
