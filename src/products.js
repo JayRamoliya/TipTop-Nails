@@ -20,6 +20,9 @@ const products = [
     { id: 19, name: "Navy Blue Fall Nail", category: "4", price: "$3.5", image: "/nails/Navy Blue Fall Nail.jpg", link: "https://amzn.to/4hYqFIC" },
     { id: 20, name: "Tiny Little Artworks", category: "2", price: "$3.1", image: "/nails/Tiny Little Artworks.jpg", link: "https://amzn.to/4iNEKdd" },
     { id: 21, name: "Pink Nails", category: "3", price: "$3.9", image: "/nails/Pink Nails.jpg", link: "https://amzn.to/3QVXXgn" },
+    { id: 22, name: "Matte Green Nails", category: "2", price: "$39.9", image: "/nails/Matte Green Nails.jpg", link: "https://amzn.to/4cdQrY9" },
+    { id: 23, name: "Matte Ombre Purple Spring Nails 2025", category: "3", price: "$33.9", image: "/nails/Matte Ombre Purple Spring Nails 2025.jpg", link: "https://amzn.to/4ci6TGD" },
+    { id: 24, name: "Coffin nails designs", category: "1", price: "$23.9", image: "/nails/Coffin nails designs.jpg", link: "https://amzn.to/4ci6TGD" },
 ];
 
 export default products;
