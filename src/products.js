@@ -1,4 +1,7 @@
 const products = [
+    { id: 1, name: "Premium Designer 24pcs Stick-on Nails set", category: "1", price: "₹299", image: "/nails/Premium Designer 24pcs Stick-on Nails set.jpg", link: "https://amzn.to/3RB6CoH" },
+    { id: 1, name: "acrylic translucent press on nails artifical designer 3D", category: "1", price: "₹401", image: "/nails/acrylic translucent press on nails artifical designer 3D.jpg", link: "https://amzn.to/4clOwR5" },
+    { id: 1, name: "LIARTY 480Pcs French Fake Nails", category: "1", price: "₹3453", image: "/nails/LIARTY 480Pcs French Fake Nails.jpg", link: "https://amzn.to/3G0e7mH" },
     { id: 1, name: "Elegant Red Nails", category: "1", price: "$3.5", image: "/nails/Elegant Red Nails.jpg", link: "https://amzn.to/3DYkoi5" },
     { id: 2, name: "Luxury Gold Nails", category: "2", price: "$3.1", image: "/nails/Luxury Gold Nails.jpg", link: "https://amzn.to/4iNEKdd" },
     { id: 3, name: "Classic French Nails", category: "3", price: "$4", image: "/nails/Classic French Nails.jpg", link: "https://amzn.to/4hMuvnT" },
@@ -23,6 +26,9 @@ const products = [
     { id: 22, name: "Matte Green Nails", category: "2", price: "$39.9", image: "/nails/Matte Green Nails.jpg", link: "https://amzn.to/4cdQrY9" },
     { id: 23, name: "Matte Ombre Purple Spring Nails 2025", category: "3", price: "$33.9", image: "/nails/Matte Ombre Purple Spring Nails 2025.jpg", link: "https://amzn.to/4ci6TGD" },
     { id: 24, name: "Coffin nails designs", category: "1", price: "$23.9", image: "/nails/Coffin nails designs.jpg", link: "https://amzn.to/4ci6TGD" },
+    { id: 25, name: "Christmas Nails and Fall Nails", category: "2", price: "$23.9", image: "/nails/Christmas Nails and Fall Nails.jpg", link: "https://amzn.to/4ci6TGD" },
+    { id: 26, name: "Matte grey Nails with Gold Stripes", category: "3", price: "$33.9", image: "/nails/Matte grey Nails with Gold Stripes.jpg", link: "https://amzn.to/4ci6TGD" },
+
 ];
 
 export default products;
