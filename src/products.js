@@ -1,9 +1,12 @@
 const products = [
+    { id: 1, name: "1752 Pieces 3 Designs French Manicure Nail", category: "1", price: "₹2219", image: "/nails/1752 Pieces 3 Designs French Manicure Nail.jpeg", link: "httpsamzn.to4i7Fdpi" },
     { id: 1, name: "Premium Designer 24pcs Stick-on Nails set", category: "1", price: "₹299", image: "/nails/Premium Designer 24pcs Stick-on Nails set.jpg", link: "https://amzn.to/3RB6CoH" },
     { id: 1, name: "acrylic translucent press on nails artifical designer 3D", category: "1", price: "₹401", image: "/nails/acrylic translucent press on nails artifical designer 3D.jpg", link: "https://amzn.to/4clOwR5" },
     { id: 1, name: "LIARTY 480Pcs French Fake Nails", category: "1", price: "₹3453", image: "/nails/LIARTY 480Pcs French Fake Nails.jpg", link: "https://amzn.to/3G0e7mH" },
     { id: 1, name: "Elegant Red Nails", category: "1", price: "$3.5", image: "/nails/Elegant Red Nails.jpg", link: "https://amzn.to/3DYkoi5" },
     { id: 2, name: "Luxury Gold Nails", category: "2", price: "$3.1", image: "/nails/Luxury Gold Nails.jpg", link: "https://amzn.to/4iNEKdd" },
+    { id: 2, name: "Gush Beauty Press On Nails", category: "2", price: " ₹899", image: "/nails/Gush Beauty Press On Nails.jpeg", link: "https://amzn.to/428XZrN" },
+    { id: 3, name: "Rose Gold Chrome press on nails", category: "3", price: "₹1,050", image: "/nails/Rose Gold Chrome press on nails.jpeg", link: "https://amzn.to/3G4Gct1" },
     { id: 3, name: "Classic French Nails", category: "3", price: "$4", image: "/nails/Classic French Nails.jpg", link: "https://amzn.to/4hMuvnT" },
     { id: 4, name: "Glitter Glam Nails", category: "3", price: "$2.9", image: "/nails/Glitter Glam Nails.jpg", link: "https://amzn.to/3QVXXgn" },
     { id: 5, name: "Ombre Pink Nails", category: "4", price: "$2.5", image: "/nails/Ombre Pink Nails.jpg", link: "https://amzn.to/3Rtscve" },
@@ -28,6 +31,10 @@ const products = [
     { id: 24, name: "Coffin nails designs", category: "1", price: "$23.9", image: "/nails/Coffin nails designs.jpg", link: "https://amzn.to/4ci6TGD" },
     { id: 25, name: "Christmas Nails and Fall Nails", category: "2", price: "$23.9", image: "/nails/Christmas Nails and Fall Nails.jpg", link: "https://amzn.to/4ci6TGD" },
     { id: 26, name: "Matte grey Nails with Gold Stripes", category: "3", price: "$33.9", image: "/nails/Matte grey Nails with Gold Stripes.jpg", link: "https://amzn.to/4ci6TGD" },
+    { id: 1, name: "French Manicure Press-on Nails", category: "1", price: "₹500", image: "/nails/French Manicure Press-on Nails.jpeg", link: "https://amzn.to/4jw6fIe" },
+    { id: 1, name: "Evil Eye Nail Art Design", category: "1", price: "₹450", image: "/nails/Evil Eye Nail Art Design.jpeg", link: "https://amzn.to/4loeCqQ" },
+    { id: 1, name: "Zebra Print French Tip Nail Art Design", category: "1", price: "₹500", image: "/nails/Zebra Print French Tip Nail Art Design.jpeg", link: "https://amzn.to/3XT2Z12" },
+    { id: 1, name: "Secret Lives Glossy Cats Eye Reusable Artificial stiletto shape Dark Pink", category: "1", price: "₹498", image: "/nails/Secret Lives Glossy Cats Eye Reusable Artificial stiletto shape Dark Pink.jpeg", link: "https://amzn.to/4257iZE" },
 
 ];
 
